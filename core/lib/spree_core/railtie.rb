@@ -28,7 +28,7 @@ module SpreeCore
           Calculator::FlatRate,
           Calculator::FlexiRate,
           Calculator::PerItem,
-          Calculator::PriceBucket]
+          Calculator::PriceScuttle]
 
        app.config.spree.calculators.tax_rates = [
           Calculator::SalesTax,
